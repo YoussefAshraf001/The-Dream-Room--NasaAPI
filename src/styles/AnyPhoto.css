@@ -1,0 +1,63 @@
+/* ALL PHOTO OF THE DAY */
+
+.Photo_Day {
+  display: flex;
+  padding: 40px;
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.Photo_Day img {
+  width: 130%;
+  margin-right: 50px;
+  object-fit: contain;
+  max-height: 80vh;
+  border-radius: 20px;
+}
+
+.info-btn{
+  background-color: black;
+}
+
+ .date {
+  font-weight: bold;
+  font-size: 1.7em;
+  margin-left: 19.7%;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+.Photo_Day h1 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+.Photo_Day .explanation {
+  color: white;
+}
+
+@media (min-width: 400px) and (max-width: 1280px) {
+.Photo_Day {
+    display: block;
+    background-color: transparent;
+  }
+
+  .Photo_Day img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+  .Photo_Day h1 {
+    text-align: center;
+  }
+  .Photo_Day .explanation {
+    text-align: center;
+  }
+  .date {
+    margin-top: 5%;
+    margin-left: 34%;
+  }
+}
